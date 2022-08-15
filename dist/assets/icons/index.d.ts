@@ -1,4 +1,3 @@
-/// <reference types="react" />
 export declare const SettingsIcon: () => JSX.Element;
 export declare const CloseIcon: () => JSX.Element;
 export declare const WalletIcon: () => JSX.Element;

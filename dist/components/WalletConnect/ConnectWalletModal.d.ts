@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import "./wallet.scss";
 interface Props {
     onHide: () => void;

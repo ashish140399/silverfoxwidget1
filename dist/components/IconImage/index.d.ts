@@ -1,4 +1,3 @@
-/// <reference types="react" />
 declare function IconImage({ src, className, alt, height, width, }: {
     src: any;
     className?: string;
