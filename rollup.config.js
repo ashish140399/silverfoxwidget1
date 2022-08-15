@@ -3,6 +3,7 @@ import scss from "rollup-plugin-scss";
 import url from "@rollup/plugin-url";
 import pkg from "./package.json";
 import json from "@rollup/plugin-json";
+import image from "@rollup/plugin-image";
 
 export default {
   input: "src/index.tsx",
@@ -10,5 +11,5 @@ export default {
     { file: pkg.main, format: "cjs" },
     { file: pkg.module, format: "es" },
   ],
-  plugins: [url(), scss(), json(), typescript()],
+  plugins: [url(), scss(), json(), image(), typescript()],
 };
