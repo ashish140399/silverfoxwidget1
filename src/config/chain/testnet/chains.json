@@ -1,0 +1,84 @@
+[
+  {
+    "id": "rinkeby",
+    "chain_id": 4,
+    "domain_id": "1111",
+    "name": "Rinkeby",
+    "short_name": "RIN",
+    "image": "/logos/chains/rinkeby.png",
+    "website": "https://rinkeby.io",
+    "coingecko_id": "ethereum",
+    "color": "#c0c2c3",
+    "disabled": false,
+    "provider_params": {
+      "chainId": "0x4",
+      "chainName": "Ethereum Rinkeby",
+      "rpcUrls": ["https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"],
+      "nativeCurrency": {
+        "name": "Rinkeby Ether",
+        "symbol": "RIN",
+        "decimals": 18
+      },
+      "blockExplorerUrls": ["https://rinkeby.etherscan.io"]
+    },
+    "gas_limit": {
+      "opensea": "732000",
+      "uniswapv2": "400000",
+      "uniswapv3": "400000"
+    },
+    "subgraph": ["https://api.thegraph.com/subgraphs/name/fibswapdex/fibswap-runtime-v1-rinkeby"],
+    "fibswap": "0xbaa68DAA487c2BD0b1C49530ac2477dE07516917",
+    "multicall": "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696",
+    "explorer": {
+      "name": "Etherscan",
+      "url": "https://rinkeby.etherscan.io",
+      "icon": "/logos/explorers/etherscan.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    }
+  },
+  {
+    "id": "kovan",
+    "chain_id": 42,
+    "domain_id": "2221",
+    "name": "Kovan",
+    "short_name": "KOV",
+    "image": "/logos/chains/kovan.png",
+    "website": "https://kovan-testnet.github.io/website",
+    "coingecko_id": "ethereum",
+    "color": "#c0c2c3",
+    "disabled": false,
+    "provider_params": {
+      "chainId": "0x2a",
+      "chainName": "Ethereum Kovan",
+      "rpcUrls": ["https://kovan.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"],
+      "nativeCurrency": {
+        "name": "Kovan Ether",
+        "symbol": "KOV",
+        "decimals": 18
+      },
+      "blockExplorerUrls": ["https://kovan.etherscan.io"]
+    },
+    "gas_limit": {
+      "opensea": "732000",
+      "uniswapv2": "400000",
+      "uniswapv3": "400000"
+    },
+    "subgraph": ["https://api.thegraph.com/subgraphs/name/fibswapdex/fibswap-runtime-v1-kovan"],
+    "fibswap": "0x96078BbBB1dF93ec5fc27a46b996D0B46DF536F8",
+    "multicall": "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696",
+    "explorer": {
+      "name": "Etherscan",
+      "url": "https://kovan.etherscan.io",
+      "icon": "/logos/explorers/etherscan.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    }
+  }
+]

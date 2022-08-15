@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.App {
+  min-height: 100vh;
+}
+
+button {
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(226, 126, 172, 0.6);
+  box-shadow: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

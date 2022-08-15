@@ -1,0 +1,9 @@
+export declare const remove_decimal: (number: any) => any;
+export declare const number_format: (number: any, format: any, is_exact: any) => any;
+export declare const name: (s: any, data: any) => any;
+export declare const ellipse: (string: any, length?: number) => any;
+export declare const equals_ignore_case: (a: any, b: any) => boolean;
+export declare const params_to_obj: (s: any) => any;
+export declare const to_json: (s: any) => any;
+export declare const loader_color: (theme: any) => "white" | "#3b82f6";
+export declare const sleep: (ms: any) => Promise<unknown>;
